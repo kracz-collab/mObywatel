@@ -1,54 +1,55 @@
-[README-en.md](https://github.com/user-attachments/files/24402382/README-en.md)
-# mObywatel Mobile
-On December 29, 2025, the publication of mObywatel's source code was announced.
+# mObywatel mobilny
+**🇬🇧English version [HERE](README-en.md)**
 
-What exactly did we get? In accordance with the legal obligation arising from the Act of May 26, 2023 on the mObywatel application (Journal of Laws of 2023, item 1234):
+Dnia 29.12.2025 zostało hucznie ogłoszone opublikowanie kodu źródłowego mObywatela
 
-- [The code page](https://www.mobywatel.gov.pl/kod-zrodlowy-mobywatel-mobilny), which requires logging in with mObywatel/a [trusted profile](https://pl.wikipedia.org/wiki/Profil_zaufany)/a Polish bank account/eID
-- A gallery for browsing some of the assets and the code itself, licensed under the ([MIT license](LICENSE.md)), limited to code concerning the design system of the mObywatel application, i.e. UI components, colours, styles, icons
-- The ability to right-click is blocked, you need to use an add-on such as [Allow Right Click](https://webextension.org/listing/allow-right-click.html)
+Co dokładnie dostaliśmy? Zgodnie z obowiązkiem ustawowym wynikającym z ustawy z dnia 26 maja 2023 r. o aplikacji mObywatel (Dz. U. z 2023 r. poz. 1234):
 
-This means that things like these were not published:
-- business logic, in any scope
-- API, communication with other components
-- authentication module
-- documentation
+- [stronę z kodem](https://www.mobywatel.gov.pl/kod-zrodlowy-mobywatel-mobilny), do której należy się zalogować mObywatelem/profilem zaufanym/bankiem/eID,
+- galerię do przeglądania części assetów oraz samego kodu (na [licencji MIT](LICENSE.md)) dotyczącego designu systemu aplikacji mObywatel, tj. komponenty UI, użyte kolory, style, piktogramy,
+  - zablokowany prawy przycisk myszy, który odblokować można dodatkiem takim jak na przykład [Allow Right Click](https://webextension.org/listing/allow-right-click.html)
 
-Imagine that mObywatel is a large building complex. We were supposed to learn the secrets of this complex, and instead, we have found out what kind of paint was used to paint the facade of the building...
+Oznacza to, że nie zostały opublikowane takie rzeczy jak:
+- logika biznesowa, w żadnym zakresie
+- API, komunikacja z innymi komponentami
+- moduł uwierzytelnia
+- dokumentacja
 
-## How to download the code yourself
+Wyobraźmy sobie, że mObywatel jest wielkim kompleksem budowli, mieliśmy poznać sekrety tego kompleksu - zamiast tego dowiedzieliśmy się, jaka farba została użyta do pomalowania fasady obiektu...
 
-| Script | Action |
-|--------|--------|
-| [mobywatel-downloader.user.js](mobywatel-downloader.user.js) | Downloading single/multiple files using the [Greasemonkey](https://addons.mozilla.org/pl/firefox/addon/greasemonkey/) add-on |
-| [organize_files.py](organize_files.py) | Ran in the same directory as the files from the script above, it creates a directory tree |
-| [clean_line_numbers.py](clean_line_numbers.py) | Cleaning line numbers from the code |
+## Jak ściągnąć kod samemu
+
+| Skrypt                                                       | Działanie |
+|--------------------------------------------------------------|-----------|
+| [mobywatel-downloader.user.js](mobywatel-downloader.user.js) | Ściąganie pojedynczych/wielu plików za pomocą dodatku [Greasemonkey](https://addons.mozilla.org/pl/firefox/addon/greasemonkey/) |
+| [organize_files.py](organize_files.py)                       | Umieszczony w tym samym katalogu co pliki ze skryptu powyżej tworzy drzewo katalogów |
+| [clean_line_numbers.py](clean_line_numbers.py)               | Sprzątanie numerów linii z kodu                                                      |
 
 
-## Media publications
-### Ministry of Digital Affairs published mObywatel's source code [pl]
-Source: https://www.gov.pl/web/cyfryzacja/ministerstwo-cyfryzacji-opublikowalo-kod-zrodlowy-mobywatela
+## Publikacje medialne
+### Ministerstwo Cyfryzacji opublikowało kod źródłowy mObywatela
+Źródło: https://www.gov.pl/web/cyfryzacja/ministerstwo-cyfryzacji-opublikowalo-kod-zrodlowy-mobywatela
 
-In accordance with the regulations, the Ministry of Digital Affairs made the source code of the mObywatel application available - thanks to this, everyone can better understand the government application that is already used by nearly 11 million Polish women and men.
+Zgodnie z przepisami resort cyfryzacji udostępnił kod źródłowy aplikacji mObywatel - dzięki temu każdy może lepiej poznać rządową aplikację, z której korzysta już blisko 11 milionów Polek i Polaków.
 
-The publication of information regarding the source code results from the Act of May 26, 2023 on the mObywatel application. To make this process safe, expert opinions on this matter were presented by key institutions of the national cybersecurity system – CSIRT GOV, CSIRT MON and CSIRT NASK.
+Publikacja informacji dotyczącej kodu źródłowego wynika z ustawy z dnia 26 maja 2023 r. o aplikacji mObywatel. Aby proces ten był bezpieczny, opinie eksperckie w tej sprawie przedstawiły kluczowe instytucje krajowego systemu cyberbezpieczeństwa – CSIRT GOV, CSIRT MON i CSIRT NASK.
 
-The link to the mObywatel application code was posted in the Bulletin of Public Information of the Ministry of Digital Affairs.
-
----
-### Source code of the mObywatel application [pl]
-Source: https://mc.bip.gov.pl/aplikacja-mobywatel/kod-zrodlowy-aplikacji-mobywatel.html
-
-In accordance with the legal obligation arising from the Act of May 26, 2023 on the mObywatel application (Journal of Laws of 2023, item 1234), the Ministry of Digital Affairs publishes information on the disclosure of the source code of the mObywatel application.
-
-The Ministry of Digital Affairs, after obtaining the legally required opinions of CSIRT MON, CSIRT ABW and CSIRT NASK, made available part of the source code of the application, presenting the philosophy and coding structure. Parts of the code not disclosed to the public may contain functions of key importance to the security of the application. The published code does not contain any user data.
-
-Access to the disclosed part of the source code of the mObywatel application is possible after confirming identity using one of the selected methods. This requirement results from the recommendations contained in the CSIRT MON opinion, regarding ensuring the criterion of user accountability.
-
-The source code of the mObywatel application has been made available for public viewing on the website available at: https://www.mobywatel.gov.pl/kod-zrodlowy-mobywatel-mobilny
+Link do kodu aplikacji mObywatel został zamieszczony w Biuletynie Informacji Publicznej Ministerstwa Cyfryzacji.
 
 ---
-### We analyze the opinion of CSIRT MON on the publication of the mObywatel code [pl]
-Source: https://kontrabanda.net/r/analizujemy-opinie-csirt-mon-w-sprawie-publikacji-kodu-mobywatela/
+### Kod źródłowy aplikacji mObywatel
+Źródło: https://mc.bip.gov.pl/aplikacja-mobywatel/kod-zrodlowy-aplikacji-mobywatel.html
 
-The article contains a PDF copy of the CSIRT MON opinion on the subject matter.
+Zgodnie z obowiązkiem ustawowym wynikającym z ustawy z dnia 26 maja 2023 r. o aplikacji mObywatel (Dz. U. z 2023 r. poz. 1234), Minister Cyfryzacji publikuje informację o udostępnieniu kodu źródłowego aplikacji mObywatel.
+
+Minister Cyfryzacji, po uzyskaniu wymaganych ustawowo opinii CSIRT MON, CSIRT ABW oraz CSIRT NASK, udostępnił część kodu źródłowego aplikacji, prezentującą filozofię oraz strukturę kodowania. Części kodu nieudostępnione do publicznego wglądu mogą zawierać funkcje o kluczowym znaczeniu z punktu widzenia bezpieczeństwa aplikacji. Publikowany kod nie zawiera żadnych danych użytkowników.
+
+Dostęp do udostępnionej części kodu źródłowego aplikacji mObywatel jest możliwy po potwierdzeniu tożsamości jedną z wybranych metod. Wymóg ten wynika z rekomendacji zawartych w opinii CSIRT MON, dotyczących zapewnienia kryterium rozliczalności użytkowników.
+
+Kod źródłowy aplikacji mObywatel został udostępniony do publicznego wglądu na stronie internetowej dostępnej pod adresem: https://www.mobywatel.gov.pl/kod-zrodlowy-mobywatel-mobilny
+
+---
+### Analizujemy opinię CSIRT MON w sprawie publikacji kodu mObywatela
+Źródło: https://kontrabanda.net/r/analizujemy-opinie-csirt-mon-w-sprawie-publikacji-kodu-mobywatela/
+
+Artykuł zawiera kopię .pdf opinii CSIRT MON w tej sprawie.
